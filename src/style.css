@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@keyframes page-animation{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+#app{
+    width: 100vw;
+    animation-name: page-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
