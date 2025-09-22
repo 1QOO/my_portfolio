@@ -19,7 +19,7 @@ const Project = ({project})=>{
                 </ul>
                 </>
                 }
-                <div className="my-3">
+                <div className="my-3 overflow-auto">
                     Git link <a href={project.gitLink} target="_blank" className="text-blue-500">{project.gitLink}</a><br />
                     {project.demoLink && <>Demo link <a href={project.demoLink} target="_blank" className="text-blue-500">{project.demoLink}</a></>}
                 </div>
