@@ -1,16 +1,3 @@
-const simpleCalc = {
-    title: "Simple Calculator",
-    img: "/simple_calc.png",
-    desc: "A simple calculator webApp for calculation.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    features:  ["Do a simple calculation like addition, substraction, multiplication, and division.",
-        "Prevent user to input operator at beginning.",
-        "Prevent User to input operator more than once."
-    ],
-    gitLink: "https://github.com/1QOO/mini_project_simple_calculator",
-    demoLink: ""
-}
-
 const chessApp = {
     title: "Simple Chess App",
     img: "/chess_app.png",
@@ -21,7 +8,7 @@ const chessApp = {
     demoLink: "https://chess-app-ecru.vercel.app"
 }
 
-const restauantWeb = {
+const restaurantWeb = {
     title: "Restaurant Website",
     img: "/mytaste.png",
     desc:   `A simple website restaurant.`,
@@ -31,16 +18,16 @@ const restauantWeb = {
     demoLink: "https://my-taste-restaurant.vercel.app"
 }
 
-const landingPage = {
-    title: "Simple Landing page",
+const onlineStoreWeb = {
+    title: "Online Store",
     img: "/landing_page.png",
-    desc:   `A simple landing page for self-promotion.`,
-    techStack: ["HTML", "CSS", "JavaScript"],
+    desc:   `A simple online store web for local clothes shop.`,
+    techStack: ["HTML", "TailwindCSS", "Next JS"],
     features: null,
-    gitLink: "https://github.com/1QOO/LandingPage",
+    gitLink: "https://github.com/1QOO/online-store",
     demoLink: ""
 }
 
-const projects = [simpleCalc, chessApp, restauantWeb, landingPage];
+const projects = [chessApp, restaurantWeb, onlineStoreWeb];
 
 export default projects
