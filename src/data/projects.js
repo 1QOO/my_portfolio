@@ -25,7 +25,7 @@ const onlineStoreWeb = {
     techStack: ["HTML", "TailwindCSS", "Next JS"],
     features: null,
     gitLink: "https://github.com/1QOO/online-store",
-    demoLink: ""
+    demoLink: "https://online-store-ivory-chi.vercel.app/"
 }
 
 const projects = [chessApp, restaurantWeb, onlineStoreWeb];
