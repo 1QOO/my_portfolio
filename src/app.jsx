@@ -6,10 +6,10 @@ import Footer from './layouts/footer';
 const App = ()=>{
     return (
         <>
-        <Header />
-        <Hero />
-        <ProjectsDisplay />
-        <Footer />
+            <Header />
+            <Hero />
+            <ProjectsDisplay />
+            <Footer />
         </>
     )
 }

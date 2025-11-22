@@ -3,3 +3,10 @@
 li{
     list-style-position: inside;
 }
+
+.roboto-slab-font{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

@@ -20,7 +20,7 @@ export default function Project({project}){
                 </ul>
                 {project.features && 
                 <>
-                <h4 className="font-bold mt-2">Features</h4>
+                <h4 className="font-bold mt-2">Fitur</h4>
                 <ul>
                     {project.features.map((item,i)=><li key={i}>{item}</li>)}
                 </ul>

@@ -1,33 +1,24 @@
 const chessApp = {
-    title: "Simple Chess App",
+    title: "Permainan Catur",
     img: "/chess_app.png",
-    desc:   `A simple chess app that can by played by 2 player on the same machine.`,
+    desc:   `Permainan Catur sederhana yang dimainkan oleh 2 orang dengan 1 perangkat.`,
     techStack: ["HTML", "TailwindCSS", "React JS"],
-    features: null,
+    features: ["Responsif terhadap perangkat mobile"],
     gitLink: "https://github.com/1QOO/web_game_project_chess",
     demoLink: "https://chess-app-ecru.vercel.app"
 }
 
 const restaurantWeb = {
-    title: "Restaurant Website",
+    title: "Situs Web Restoran",
     img: "/mytaste.png",
-    desc:   `A simple website restaurant.`,
+    desc:   `Situs Web Restoran sederhana di mana pengujung dapat memesan makanan dan reservasi secara daring.`,
     techStack: ["HTML", "TailwindCSS", "React JS"],
-    features: ["Responsive design with mobile first-approach.", "User can put order and book reservation."],
+    features: ["Responsif terhadap perangkat mobile.", "Pengunjung dapat memesan makanan dan reservasi secara daring."],
     gitLink: "https://github.com/1QOO/MyTaste_Restaurant",
     demoLink: "https://my-taste-restaurant.vercel.app"
 }
 
-const onlineStoreWeb = {
-    title: "Online Store",
-    img: "/landing_page.png",
-    desc:   `A simple online store web for local clothes shop.`,
-    techStack: ["HTML", "TailwindCSS", "Next JS"],
-    features: null,
-    gitLink: "https://github.com/1QOO/online-store",
-    demoLink: "https://online-store-ivory-chi.vercel.app/"
-}
 
-const projects = [chessApp, restaurantWeb, onlineStoreWeb];
+const projects = [chessApp, restaurantWeb];
 
 export default projects

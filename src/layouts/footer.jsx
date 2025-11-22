@@ -21,7 +21,6 @@ const Footer = ()=>{
                     </tr>
                 </tbody>
             </table>
-            <span id="creator">- Created by Iqro -</span>
         </footer>
     )
 }
